@@ -11,3 +11,5 @@ export const ItemBiblioteca = () => {
 		</div>
 	)
 }
+
+export default ItemBiblioteca
