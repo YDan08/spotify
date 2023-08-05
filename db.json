@@ -21,9 +21,29 @@
 		}
 	],
 
-	"playlistmusica": [
-		{ "playlistId": 1, "musicaId": 1 },
-		{ "playlistId": 1, "musicaId": 2 },
-		{ "playlistId": 1, "musicaId": 3 }
+	"playlistmusicas": [
+		{
+			"playlistId": 1,
+			"musicas": [
+				{
+					"id": 1,
+					"nome": "Stressed Out",
+					"banda": "Twenty One Pilots",
+					"audio": "stressedout.mp3"
+				},
+				{
+					"id": 2,
+					"nome": "Jennifer",
+					"banda": "Trinidad Cardona",
+					"audio": "jennifer.mp3"
+				},
+				{
+					"id": 3,
+					"nome": "High Hopes",
+					"banda": "Panic! At The Disco",
+					"audio": "highhopes.mp3"
+				}
+			]
+		}
 	]
 }
