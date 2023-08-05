@@ -1,7 +1,6 @@
 .range {
 	display: block;
 	appearance: none;
-	width: 100%;
 	height: 8px;
 	border-radius: 8px;
 	background-color: #52525b;
@@ -13,4 +12,12 @@
 	height: 12px;
 	border-radius: 50%;
 	background-color: #f4f4f5;
+}
+
+.rangePlayer {
+	width: 384px;
+}
+
+.rangeVolume {
+	width: 100%;
 }
